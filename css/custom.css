@@ -1,0 +1,477 @@
+
+@font-face {
+    font-family: 'prelo_bookbook';
+    src: url('../fonts/Prelo-Book-webfont.eot');
+    src: url('../fonts/Prelo-Book-webfont.svg#prelo_bookbook') format('svg'), 
+        url('../fonts/Prelo-Book-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Prelo-Book-webfont.woff2') format('woff2'),
+        url('../fonts/Prelo-Book-webfont.woff') format('woff'),
+        url('../fonts/Prelo-Book-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'prelo_lightlight';
+    src: url('../fonts/Prelo-Light-webfont.eot');
+    src: url('../fonts/Prelo-Light-webfont.svg#prelo_lightlight') format('svg'),
+        url('../fonts/Prelo-Light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Prelo-Light-webfont.woff2') format('woff2'),
+        url('../fonts/Prelo-Light-webfont.woff') format('woff'),
+        url('../fonts/Prelo-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'prelo_mediummedium';
+    src: url('../fonts/Prelo-Medium-webfont.eot');
+    src: url('../fonts/Prelo-Medium-webfont.svg#prelo_mediummedium') format('svg'),
+        url('../fonts/Prelo-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Prelo-Medium-webfont.woff2') format('woff2'),
+        url('../fonts/Prelo-Medium-webfont.woff') format('woff'),
+        url('../fonts/Prelo-Medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'prelo_boldbold';
+    src: url('../fonts/Prelo-Bold-webfont.eot');
+    src: url('../fonts/Prelo-Bold-webfont.svg#prelo_boldbold') format('svg'),
+        url('../fonts/Prelo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Prelo-Bold-webfont.woff2') format('woff2'),
+        url('../fonts/Prelo-Bold-webfont.woff') format('woff'),
+        url('../fonts/Prelo-Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'prelo_bookbook', Arial, sans-serif;
+    color: #ffffff;
+}
+ul {list-style: none; padding: 0;}
+.modal-header {border-bottom: 0;}
+.modal-content  {border-radius: 2px;}
+.show {display: block; }
+.hide {display: none;}
+
+
+body.modal-open {
+    overflow: hidden;
+}
+.opacity {opacity: .8}
+/* home */
+.carousel img {width: 100%;}
+.carousel-caption {font-family: 'prelo_bookbook'; text-shadow: 0 0 0; font-weight: normal; letter-spacing: .8px; }
+.carousel-caption span {font-family: 'prelo_boldbold'; text-transform: uppercase;}
+.description {margin-bottom: 34%;}
+.description h1 {font-family: 'prelo_boldbold'; font-size: 66px; text-transform: uppercase; margin: 0; text-shadow: 2px 2px 5px #484848;}
+.description h2 {font-family: 'prelo_bookbook'; font-size: 26px; margin: 0; width: 80%; margin: 0 auto; opacity: .8;}
+
+.container-fluid {padding: 0;}
+.navbar-default .navbar-nav>li>a {text-transform: uppercase; line-height: .5;}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {color: #ffffff; opacity: .7; }
+nav {width: 100%; font-family: 'prelo_bookbook'; letter-spacing: 1px;}
+.navbar-header {width: 100%; margin-top: 50px;}
+.navbar {z-index: 100; }
+.logolgt {position: absolute; z-index: 10; top: 5%; left: 5%; width: 20%;}
+.logolgt img {width: 100%;}
+
+header .navbar {background-color: transparent;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+header.sticky .navbar{
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+.navbar-header {transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;}
+header.sticky .navbar-header {margin-top: 10px;}
+.logomin {display: none; width: 3%; float: left; }
+.logomin img {width: 100%;}
+header.sticky .logomin {display: block;}
+header.sticky .navbar-collapse {width: 97%; float: right;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {background-color: transparent; color: #cccccc;}
+
+
+
+/* equipamiento */
+.equipamiento-section {background: #000000; padding: 12% 0;}
+.equipamiento-section .gotomodal p {font-size: 40px; font-family: 'prelo_lightlight'; line-height: 1; text-align: center; text-transform: uppercase; cursor: pointer; }
+.equipamiento-section span {font-family: 'prelo_boldbold'; font-size: 34px; }
+.equipamiento-section .oneline p {line-height: .8; font-size: 130px; font-family: 'prelo_boldbold'; margin: 0;}
+.equipamiento-section .mix-studio p {line-height: 1.4; font-size: 80px; font-family: 'prelo_boldbold'; margin: 0; text-align: left;}
+.equipamiento-section .row {margin: 0;}
+.equipamiento-section>div>div {padding: 0;}
+.gotomodal {cursor: pointer; }
+
+.gotomodal p {transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;}
+
+.bigmodal .modal-dialog {width: 900px; }
+.bigmodal .modal-content {background: #1a1a1a;}
+h4.modal-title.estudio {font-size: 40px; text-transform: uppercase; font-family:'prelo_lightlight'; line-height: 1; }
+h4.modal-title.estudio span {font-family:'prelo_boldbold'; font-size: 32px;}
+.content-estudio {padding: 0 5% 5% 5%;}
+.content-estudio p {margin: 2% 0;}
+.content-estudio .open-section {width: 70%; margin: 4% 0;}
+.open-section li {float: left; border: 1px solid #ffffff; width: 31.3%; margin: 0 1%; text-align: center; text-transform: uppercase; line-height: 3; cursor: pointer; }
+.open-section li:hover, .open-section li.active {color: #1a1a1a; font-family: 'prelo_mediummedium'; }
+.open-section li:hover {background: #e2e2e2; color: #363636; border: 1px solid #e2e2e2;}
+.open-section li.active {background: #ffffff;}
+
+.equipamiento-section .bigmodal .modal-body {padding: 0;}
+.contenido-equipamiento {background: #000000; padding: 2% 5% 5% 5%;  }
+.contenido-equipamiento ul {float: left; margin: 2%;}
+.contenido-equipamiento li {margin: 3% 1%; font-size: 14px;}
+.contenido-equipamiento li span {font-size: 16px !important;}
+#equipos-show, #reservar-show, #equipos-showB, #reservar-showB, #reservar-showAB  {display: none;}
+
+#equipos-show ul, #equipos-showB ul, #equipos-showAB ul { width: 29.3%;}
+ul.thumbs li {float: left; width: 23%; margin: 1%; }
+ul.thumbs li img {width: 100%; }
+#foto-show .modal-content {position: relative;}
+
+.galeria img {width: 100%;}
+.fade2 {-webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    -o-animation-delay: .2s;}
+.fade4 {
+    -webkit-animation-delay: .4s;
+    -moz-animation-delay: .4s;
+    -o-animation-delay: .4s;
+}
+
+
+
+/* actualidad */
+.actualidad-section {padding: 2% 0;}
+.actualidad-section, .modal-actualidad .modal-content {background: url('../img/actualidad.jpg'); background-size: 100% auto; background-repeat: no-repeat; margin: 0;}
+.actualidad-section ul.btnto-modal {margin: 0 auto; width: 60%;}
+.actualidad-section ul.btnto-modal li {float: left; width: 40%; margin: 160px 5%; border: 1px solid #fff; font-size: 18px;
+    color: #fff; text-transform: uppercase; font-family: 'prelo_lightlight'; 
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    text-align: center; line-height: 3; cursor: pointer;}
+.actualidad-section ul.btnto-modal li:hover, .gotostaff:hover {background: #ffffff; color: #bb340a; font-family: 'prelo_mediummedium';}
+.actualidad-section .modal-title {border: 1px solid #000; text-transform: uppercase; text-align: center; width: 40%; margin: 0 auto; color: #000000; font-family: 'prelo_lightlight'; line-height: 2;}
+.proximo {background: #e31d1a; color: #000; font-size: 26px; font-family: 'prelo_bookbook'; text-align: center; padding: 15px 0; margin: 2% 0; }
+.proximo span {font-weight: bold; text-transform: uppercase;}
+.modal-actualidad .modal-body {padding: 0;}
+ul.fechas {font-family: 'prelo_mediummedium'; color: #ffffff; margin: 5% 0;}
+ul.fechas li {float: left; border-right: 1px solid #fff; width: 33%; padding: 0 2%; line-height: 1;}
+ul.fechas li:nth-last-child(1) {border-right: 0;}
+ul.fechas small {font-family: 'prelo_lightlight';}
+p.proximamente {font-family: 'prelo_mediummedium'; text-align: center; text-transform: uppercase; font-size: 36px; margin: 18% 0;}
+
+/* quienes somos */
+.about-section {background: url('../img/about.jpg'); background-size: 100% 100%; background-repeat: no-repeat; margin: 0; padding: 8% 10%; }
+.about-section p {color: #ffffff; width: 80%; font-size: 14px; margin: 1.5% 0; font-family: 'prelo_lightlight'}
+.about-section span {font-family: 'prelo_bookbook'; text-transform: uppercase;}
+.about-section h3 {text-transform: uppercase; font-size: 60px; color: #ffffff; margin: 0; line-height: 1.5; padding-top: 30px; font-family: 'prelo_bookbook'}
+.gotostaff {border: 1px solid #fff; font-size: 18px; width: 20%;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    color: #fff; text-transform: uppercase; font-family: 'prelo_lightlight'; text-align: center; line-height: 3; cursor: pointer;}
+
+#staff .carousel-caption {background: rgba(0, 0, 0, 0.4); width: 100%; left: 0; right: 0; text-align: center;}
+#staff .carousel-caption h2 {text-transform: uppercase;  margin-bottom: 0;}
+#staff .carousel-caption p {width: 100%;margin-top: 0; opacity: .8;}
+
+
+/* servicios */
+.servicios-section {background: url('../img/servicios.jpg'); background-size: 100% 100%; background-repeat: no-repeat; margin: 0; padding: 4% 0;}
+ul.servicios {width: 80%; margin: 2% auto;}
+ul.servicios li .hover {display: none; width: 100%; top: 40%; z-index: 10; position: absolute; color: #ffffff; font-family: 'prelo_bookbook'; font-size: 26px;}
+ul.servicios li {position:relative; width: 29.3%; margin: 2%; background: rgba(0, 0, 0, 0.6); float: left; text-align: center; padding: 6% 0; }
+ul.servicios li img {width: 30%; margin: 0 auto;}
+ul.servicios li:hover .hover {display: block;}
+ul.servicios li:hover img {visibility: hidden;}
+.gotogaleria {color: #000000; width: 23.3%; cursor: pointer;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    margin: 2% auto; font-family: 'prelo_bookbook'; border: 1px solid #000000; line-height: 3; text-transform: uppercase; text-align: center;}
+.gotogaleria:hover {color:#ffffff; background: #000000;}
+
+/* contacto */
+
+.contacto-section {background: #1a1a1a; padding: 4% 0;}
+.content-contacto {padding: 6%;}
+.contacto-section .texto {color: #ffffff; font-family: 'prelo_bookbook'; font-size: 28px; width: 30%; float: left; }
+.contacto-section .texto span {color: #ffffff; font-family: 'prelo_lightlight'; color: #d8d8d8;}
+
+.info-contact {color: #f9be00; font-family: 'prelo_bookbook';
+    float: left; font-size: 28px;  width: 60%; text-align: right; }
+.info-contact span {font-family: 'prelo_lightlight';}
+
+.redes li {float: right; margin: 4% .5%;}
+
+.redes li a {  transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;}
+.redes li a:hover {opacity: .6;}
+
+.mapa img {width: 100%;}
+.sandbox {float: right; margin: 1%;}
+.galeria2 img {position: relative !important; width: 90%; margin: 0 auto; }
+.buttonfixedhover {position: absolute;top:50%; z-index: 100;   color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    width: 100%; }
+.buttonfixedhover .next {float: right;}
+.buttonfixedhover button {background: none; border: 0; font-size: 30px; margin: 0 8%;}
+
+#links.blueimp-gallery {top:-46%!important;}
+#zero.blueimp-gallery {top:-110%!important; overflow-y: scroll;}
+
+.navbar-default .navbar-toggle .icon-bar {background-color: #fff; }
+.space {display: none;}
+
+.streaming-online img {width: 100%; position: relative; }
+.streaming-online .iframeinformation {position: absolute; z-index: 10; bottom: 20%; right: 2%; }
+.streaming-online .iframeinformation {color: #2f3a42; }
+.streaming-online .iframeinformation h1 {text-transform: uppercase; font-size: 40px;
+    font-family: 'prelo_boldbold'; margin-bottom: 0;}
+.streaming-online .iframeinformation p {font-size: 20px; font-family: 'prelo_lightlight';}
+.morebutton {border: 1px solid #ffffff; padding: 5% 2%;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    }
+.morebutton:hover {background: #ffffff;
+}
+.morebutton:hover p {color: #000;}
+
+
+@media (max-width: 940px) {
+    .logolgt {width: 8%;}
+    .description {margin-bottom: 26%;}
+    .description h1 {font-size: 54px;}
+    .description h2 {font-size: 22px;}
+    .equipamiento-section .mix-studio .gotomodal p {font-size: 60px;}
+    .equipamiento-section .gotomodal p {font-size: 30px;}
+    .equipamiento-section span {font-size: 32px;}
+    .logomin {margin-top: 1%;}
+    ul.redes {width: 80%; float: right;}
+    ul.redes li {width: 13%;}
+    ul.redes li img {width: 100%;}
+    .bigmodal .modal-dialog {width: 90%;}
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {background: rgba(0,0,0,.8); }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color: transparent;}
+    .navbar-collapse {position: absolute; top: 0; width: 100%;}
+    .navbar-toggle {z-index: 100;}
+    .actualidad-section ul.btnto-modal {width: 80%;}
+    .about-section h3 {font-size: 44px;}
+    .gotostaff {width: 40%;}
+    .about-section {padding: 4% 6%;}
+    ul.servicios li .hover {font-size: 21px; top: 30%;}
+    .gotogaleria {width: 40%;}
+    .contacto-section .texto, .info-contact {font-size: 22px;}
+    .equipamiento-section .oneline p {font-size: 90px;}
+    .actualidad-section {background-size: 100% 100%;}
+    .description h1 {font-size: 50px;}
+
+
+}
+
+@media (max-width: 640px) {
+    .description h1 {font-size: 26px;}
+    .description h2 {font-size: 16px;}
+    body {font-size: 12px;}
+    .equipamiento-section .gotomodal p {font-size: 20px;}
+    .equipamiento-section span {font-size: 22px;}
+    .equipamiento-section .oneline p {font-size: 60px;}
+    .equipamiento-section .mix-studio .gotomodal p {font-size: 40px;}
+    .actualidad-section ul.btnto-modal li, .gotostaff {font-size: 14px;}
+    .logomin {width: 6%;}
+    .equipamiento-section {padding: 6% 0;}
+    .actualidad-section ul.btnto-modal li {margin: 40px 2%; width: 46%;}
+    .actualidad-section {background-size: 100% auto;}
+    .about-section p {width: 100%; font-size: 12px;}
+    .about-section h3 {font-size: 26px; }
+    .gotostaff {width: 100%;}
+    .actualidad-section ul.btnto-modal {width: 94%;}
+    ul.servicios {width: 96%;}
+    ul.servicios li .hover {font-size: 16px;}
+    .gotogaleria {width: 92%;}
+    .contacto-section .texto, .info-contact {font-size: 18px; width: 100%; text-align: center;}
+    .content-contacto br, .info-contact br {display: none;}
+    .content-contacto .texto span {width: 100%; }
+    .space {display: block; width: 100%; height: 5px;}
+    ul.redes {float: none; margin: 0 auto; width: 100%;}
+    ul.redes li {width: 10%; margin: 4% 2%;}
+    .navbar-header {margin-top: 0; }
+    #staff .carousel-caption h2 {font-size: 12px;}
+
+}
+
+@media (max-width: 480px) {
+    .logolgt {width: 3%;}
+    .description {margin-bottom: 0;}
+    .opacity {display: none;}
+    .description h1 {font-size: 24px;}
+    .description h2 {font-size: 12px; width: 100%;}
+    .carousel-caption {bottom: 30%;}
+    .equipamiento-section .oneline p {font-size: 30px;}
+    .equipamiento-section .mix-studio .gotomodal p {font-size: 24px;}
+    .equipamiento-section .gotomodal p, .equipamiento-section span {font-size: 14px;}
+    .actualidad-section ul.btnto-modal li, .gotostaff {font-size: 12px;}
+    ul.servicios li {width: 46%;}
+    .contacto-section .texto, .info-contact {font-size: 14px;}
+    .sandbox {width: 24%; margin: 1% 2%;}
+    .sandbox img {width: 100%;}
+    .navbar-toggle {margin-right: 0;}
+    header.sticky .navbar-header {margin-top: 0;}
+    .logomin {width: 12%; margin-left: 4%; margin-top: 2%;}
+    .navbar-brand {width: 12%; }
+    .navbar-brand img {width: 100%;}
+    .content-estudio .open-section {width: 100%;}
+    .h3, h3 {font-size: 18px;}
+    h4.modal-title.estudio {font-size: 22px;}
+    h4.modal-title.estudio span {font-size: 18px;}
+    .buttonfixedhover button {font-size: 14px;}
+    .blueimp-gallery .modal-header {height: 4px;}
+    .galeria2 img {width: 100%;}
+
+
+}
+
+
+.presupuesto h6 {
+    text-align: center;
+    font-size: 140%;
+    line-height: 1,5;
+}
+.presupuesto {
+    color: #fff; width: 70%; 
+/*    cursor: pointer;*/
+    
+    margin:  0% auto 5% auto;
+    margin-top: 0%;
+    font-family: 'prelo_bookbook';
+    
+    line-height: 3; 
+    text-transform: uppercase;
+} 
+ h6 span {
+    color: #f9be00;
+}
+.inMail:hover {
+    color:black;
+    background-color: white;
+}
+.inMail {
+    padding: 1%;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    border: 1px solid #fff; 
+}
+.btn-presupuesto {
+    width: 23.3%;
+    font-size: 10px;
+    color: #fff;
+    text-align:center;
+    text-decoration: none;
+    margin: 2% auto;
+    font-family: 'prelo_bookbook';
+    border: 1px solid #fff;
+    line-height: 3;
+    text-transform: uppercase;
+    text-align: center;
+    animation-duration: 2s;
+}
+
+.presupuesto-form {
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.modal-body-none {
+    position: relative;
+    text-align: center;
+    padding: 5%;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+
+label {
+    display:block;
+    margin: 2% auto 0 auto;
+    letter-spacing:1px;
+    text-align: left;
+    width: 90%;
+    font-weight: normal;
+}
+
+form {
+    margin:0 auto;
+    width:400px;
+    color: white;
+    background-color: black;
+}
+
+input, textarea {
+    width: 90%;
+    background:#000000;
+    border:1px solid #ffffff;
+    padding:2%;
+    margin: 2.5px auto;
+    font-size:14px;
+    font-weight: 100;
+    color:#ffffff;
+}
+
+textarea {
+    height:150px;
+    color: white;
+}
+.send input {text-transform: uppercase;
+border: 2px solid #ffffff}
+.send:hover input {background: #ffffff; color: #000000;}
+
+
+.alert {
+    z-index: 1;
+    position: absolute;
+    background: #c2c7c7;
+    border: 1px solid #04522b;
+    color: black;
+    left: 40%;
+    top: 25%;
+}

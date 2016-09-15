@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Estudio de Grabación.  Bandas en vivo - Streaming - Espacio Multicultural - Calidad profesional de sonido - Mastering" />
+        <title>GranT Presupuesto</title>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+        <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+    </head>
+    <body>
+
+        <div class="gotogaleria wow animated fadeIn fade2" data-toggle="modal" data-target="#presupuesto">PEDÍ PRESUPUESTO</div>
+        <!-- Modal Presupuesto -->
+        <div class="modal fade" id="presupuesto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body clearfix">
+
+                        <div class=" presupuesto-form">
+                            <form action="formmail.asp" method="post" onsubmit="return copyEmail(this)">
+                                <input name="mail_desde" type="hidden" value="info@lagrant.com.ar">
+                                <input name="mail_para" type="hidden" value="info@lagrant.com.ar">
+                                <input name="mail_cc" type="hidden" value="@lagrant.com.ar">
+                                <input name="mail_bcc" type="hidden" value="">
+                                <input name="mail_asunto" type="hidden" value="Presupuesto">
+                                <input name="mail_Format" type="hidden" value="text">
+                                <input name="mail_gracias" type="hidden" value="http://www.lagrant.com.ar/ok.html">
+                                <div class="field-sm">
+                                    <label value="nombre">Nombre*</label>
+                                    <input type="text" name="nombrecliente" value="" required="">
+                                </div>
+                                <div class="field-sm">
+                                    <label value="apellido">Apellido</label>
+                                    <input type="text" name="apellidocliente" value="">
+                                </div>
+                                <div class="field-lg">
+                                    <label value="email">Email*</label>
+                                    <input type="email" name="nombrecliente" value="" required="">
+                                </div>
+                                <div class="field-lg">
+                                    <label value="">Mensaje*</label>
+                                    <textarea value="mensaje" required=""></textarea>
+                                </div>
+                                <div class="send">
+                                    <input type="submit" value="Enviar">
+                                </div>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </body>
+</html>
